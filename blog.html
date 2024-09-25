@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Third Assiment</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/dcb6fa8a47.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+
+  <style>
+    .font-manrope {
+      font-family: "Lexend;", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="sticky top-0 z-50 ">
+    <!-- navbar section-->
+    <section class="navbar-section" id="header-section">
+      <div class="navbar bg-base-100 bg-[#F9F7F3] py-8 pl-10 pr-10">
+        <div class="navbar-start">
+          <a id="btn-blog" href="blog.html" class="hidden btn btn-ghost text-xl bg-[#B4F461] px-6">Blog</a>
+          <a id="btn-home" href="index.html" class="btn btn-ghost text-xl bg-[#B4F461] px-6">Home</a>
+        </div>
+
+        <div class="navbar-center hidden lg:flex">
+          <div class="flex items-center">
+            <img src="img/logo.png" alt="">
+            <p class="text-2xl ml-4">Donate Bangladesh</p>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <img class="w-12" src="img/coin.png" alt="">
+          <p class="ml-2 text-2xl font-bold"><span class="text-2xl " id="main-balance">5500</span> BDT</p>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </header>
+  <br>
+  
+  <br />
+  <!-- !FAQ Section Starts -->
+  <section class="m-4 md:m-0 md:w-9/12 md:mx-auto">
+
+    <h1 class="font-bold text-5xl mb-10">Important FAQ</h1>
+
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" checked="checked" />
+      <div class="collapse-title text-xl font-medium">
+        1. What is the DOM ?
+      </div>
+      <div class="collapse-content">
+        <p>DOM stands for Document Object Model. It is a programming interface that allows us to create, change, or remove elements from the document. We can also add events to these elements to make our page more dynamic.</p>
+      </div>
+    </div>
+    <br />
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        2. How is the DOM different from HTML?
+      </div>
+      <div class="collapse-content">
+        <p>HTML is what comes back from the server in the answer request, gets parsed and the DOM (= Document Object Model) is what the browser builds with it and can be manipulated with JavaScript. This makes a huge difference if you miss an element from a web page.</p>
+      </div>
+    </div>
+    <br />
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        3. What are DOM elements and nodes?
+      </div>
+      <div class="collapse-content">
+        <p>The Document Object Model (DOM) is a tree-like structure that represents the HTML elements in a web page. The nodes of the DOM are the individual elements, attributes, and text within the HTML code. Understanding the different types of DOM nodes is crucial when working with JavaScript and manipulating web pages.</p>
+      </div>
+    </div>
+    <br />
+    <div class="collapse collapse-arrow bg-base-200">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">
+        4.What is event delegation in the DOM?
+      </div>
+      <div class="collapse-content">
+        <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
